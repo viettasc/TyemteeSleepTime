@@ -15,6 +15,7 @@
 		28625929242362A6006A82A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28625927242362A6006A82A6 /* LaunchScreen.storyboard */; };
 		28625934242362A6006A82A6 /* BetterRestFull01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28625933242362A6006A82A6 /* BetterRestFull01Tests.swift */; };
 		2862593F242362A6006A82A6 /* BetterRestFull01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2862593E242362A6006A82A6 /* BetterRestFull01UITests.swift */; };
+		2862594D24236379006A82A6 /* RandomForest.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2862594C24236379006A82A6 /* RandomForest.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2862593A242362A6006A82A6 /* BetterRestFull01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestFull01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2862593E242362A6006A82A6 /* BetterRestFull01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestFull01UITests.swift; sourceTree = "<group>"; };
 		28625940242362A6006A82A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2862594C24236379006A82A6 /* RandomForest.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RandomForest.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				28625922242362A6006A82A6 /* Assets.xcassets */,
 				28625927242362A6006A82A6 /* LaunchScreen.storyboard */,
 				2862592A242362A6006A82A6 /* Info.plist */,
+				2862594C24236379006A82A6 /* RandomForest.mlmodel */,
 				28625924242362A6006A82A6 /* Preview Content */,
 			);
 			path = BetterRestFull01;
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2862594D24236379006A82A6 /* RandomForest.mlmodel in Sources */,
 				2862591D242362A6006A82A6 /* AppDelegate.swift in Sources */,
 				2862591F242362A6006A82A6 /* SceneDelegate.swift in Sources */,
 				28625921242362A6006A82A6 /* ContentView.swift in Sources */,
